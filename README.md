@@ -39,7 +39,7 @@ A simple **Discord bot** that allows you to set a custom **Playing**, **Watching
 ### **🛡️ License:**
 This project is **open-source** under the **MIT License**. You can **use**, **modify**, and **distribute** it, but you **must provide credit** and **cannot claim it as your own**.
 
-🔗 **[View the Code](https://github.com/K1z-Team/discord-status-bot)**
+🔗 **[View the Code](https://github.com/K1z-Team/discord-status-bot-Python)**
 
 ---
 
