@@ -1,16 +1,15 @@
 ---
 
-# **🎮 Discord Status Bot** 🚀
+# **🎮 Discord Ping Bot** 🚀
 
-A simple **Discord bot** that allows you to set a custom **Playing**, **Watching**, **Listening**, or **Streaming** status. Easy to configure and get started! 💬✨
+A simple **Discord bot** that responds to the `/ping` command with the bot's current **ping (latency)**. Easy to configure and get started! 💬✨
 
 ---
 
 ### **✨ Features:**
-- ✅ Set **custom activity** (Playing, Watching, Listening, Streaming)  
-- ✅ **Easy-to-edit** settings for your bot’s status  
-- ✅ Supports **streaming URLs** for Twitch/YouTube 🎥  
-- ✅ **Privacy-first** with token stored in `.env` 🔒  
+- ✅ Responds to the `/ping` command  
+- ✅ Displays bot's **latency** in response 🏓  
+- ✅ **Environment variable** support for token security 🔒  
 - ✅ **Lightweight** and **beginner-friendly** 💡  
 
 ---
@@ -19,7 +18,7 @@ A simple **Discord bot** that allows you to set a custom **Playing**, **Watching
 
 1. **Install required packages**:
    ```bash
-   pip install discord.py python-dotenv
+   npm install discord.js dotenv
    ```
 
 2. **Setup**:
@@ -27,11 +26,11 @@ A simple **Discord bot** that allows you to set a custom **Playing**, **Watching
    - Replace the `"YOUR_BOT_TOKEN_HERE"` in the `.env` file with your **Discord bot token** 🔑.
 
 3. **Edit your bot's activity**:
-   - Open `bot.py` and modify the `ACTIVITY_TYPE` (e.g., "playing", "watching", "listening", "streaming") and `ACTIVITY_TEXT` to your desired status. ✨
+   - Open `bot.js` and modify the `ACTIVITY_TYPE` (e.g., "playing", "watching", "listening", "streaming") and `ACTIVITY_TEXT` to your desired status. ✨
 
 4. **Run the bot**:
    ```bash
-   python bot.py
+   node bot.js
    ```
 
 ---
@@ -39,16 +38,16 @@ A simple **Discord bot** that allows you to set a custom **Playing**, **Watching
 ### **🛡️ License:**
 This project is **open-source** under the **MIT License**. You can **use**, **modify**, and **distribute** it, but you **must provide credit** and **cannot claim it as your own**.
 
-🔗 **[View the Code](https://github.com/K1z-Team/discord-status-bot-Python)**
+🔗 **[View the Code](https://github.com/K1z-Team/discord-ping-bot-Python)**
 
 ---
 
 ### **📁 Project Structure:**
 
 ```
-/discord-status-bot
+/discord-ping-bot
 │
-├── main.py                 # Main bot script
+├── bot.js                 # Main bot script
 ├── .env.example           # Example environment file (for your bot token)
 ├── .gitignore             # Ignores .env file from being pushed to GitHub
 └── README.md              # This file
