@@ -1,7 +1,4 @@
 ---
-
-### **1. Python Discord Status Bot** 🎮🚀
-
 # **🎮 Discord Status Bot** 🚀
 
 A simple **Discord bot** that allows you to set a custom **Playing**, **Watching**, **Listening**, or **Streaming** status. Easy to configure and get started! 💬✨
