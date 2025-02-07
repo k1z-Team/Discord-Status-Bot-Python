@@ -33,7 +33,7 @@ A simple **Discord bot** that allows you to set a custom **Playing**, **Watching
 
 4. **Run the bot**:
    ```bash
-   main.py
+   python main.py
    ```
 
 ---
