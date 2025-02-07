@@ -47,7 +47,7 @@ This project is **open-source** under the **MIT License**. You can **use**, **mo
 ```
 /discord-ping-bot
 │
-├── bot.js                 # Main bot script
+├── main.js                 # Main bot script
 ├── .env.example           # Example environment file (for your bot token)
 ├── .gitignore             # Ignores .env file from being pushed to GitHub
 └── README.md              # This file
